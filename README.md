@@ -1,2 +1,2 @@
 # Company Profile Website (FunTech)
-# WPU Vid - 42:43
+# Simple front-end project using HTML, CSS, and JavaScript
