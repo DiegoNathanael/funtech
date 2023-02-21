@@ -173,6 +173,7 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  border-radius: 10%;
 }
 
 .about .row .content {
@@ -192,9 +193,9 @@ body {
   line-height: 1.6;
 }
 
-/* Menu */
+/* Services */
 .services h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .services p {
@@ -215,15 +216,16 @@ body {
 .services .row .service-card {
   text-align: center;
   padding-bottom: 1rem;
+  max-width: 30rem;
 }
 
-.services .row .service-img img {
+.service-card-img {
   border-radius: 50%;
-  width: 40%;
+  width: 60%;
 }
 
-.services .row .service-card .service-card-title {
-  margin-top: 1.5rem auto 0.5rem;
+.service-card-title {
+  margin: 2rem auto 0.5rem;
 }
 
 /* Media Queries */
