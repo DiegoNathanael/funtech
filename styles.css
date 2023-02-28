@@ -227,13 +227,25 @@ body {
   max-width: 30rem;
 }
 
-.service-card-img {
+.service-card img {
   border-radius: 50%;
   width: 60%;
 }
 
 .service-card-title {
   margin: 2rem auto 0.5rem;
+}
+
+.service-card-title:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.service-card .desc {
+  max-width: 25rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Contact Section */
